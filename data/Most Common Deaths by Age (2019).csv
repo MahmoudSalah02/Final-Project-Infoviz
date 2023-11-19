@@ -1,0 +1,78 @@
+﻿Age Range,Rank,Cause of Death,Number of Deaths
+<1,,All Causes,20921
+,1,"Congenital malformations, deformations and chromosomal abnormalities",4301
+,2,Disorders related to short gestation and low birth weight,3445
+,3,Unintentional injuries,1266
+,4,Sudden infant death syndrome,1248
+,5,Newborn affected by maternal complications of pregnancy,1245
+,6,"Newborn affected by complications of placenta, cord and membranes",742
+,7,Bacterial sepsis of newborn,603
+,8,Respiratory distress of newborn,424
+,9,Diseases of circulatory system,406
+,10,Necrotizing enterocolitis of newborn,354
+1-4,,All Causes,3676
+,1,Unintentional injuries,1149
+,2,"Congenital malformations, deformations and chromosomal abnormalities",416
+,3,Malignant neoplasms,285
+,4,Homicide,284
+,5,Diseases of heart,133
+,6,Influenza and pneumonia,122
+,7,Certain conditions originating in the perinatal period,57
+,8,Septicemia,53
+,9,Cerebrovascular diseases,52
+,10,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",49
+5-14,,All Causes,5497
+,1,Unintentional injuries,1492
+,2,Malignant neoplasms,775
+,3,Suicide,546
+,4,"Congenital malformations, deformations and chromosomal abnormalities",381
+,5,Homicide,346
+,6,Diseases of heart,178
+,7,Chronic lower respiratory diseases,150
+,8,Influenza and pneumonia,123
+,9,Cerebrovascular diseases,85
+,10,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",66
+15-24,,All Causes,29771
+,1,Unintentional injuries,11755
+,2,Suicide,5954
+,3,Homicide,4774
+,4,Malignant neoplasms,1388
+,5,Diseases of heart,872
+,6,"Congenital malformations, deformations and chromosomal abnormalities",390
+,7,Diabetes mellitus,248
+,8,Influenza and pneumonia,175
+,9,Chronic lower respiratory diseases,168
+,10,Cerebrovascular diseases,158
+25-44,,All Causes,142164
+,1,Unintentional injuries,48586
+,2,Suicide,15584
+,3,Malignant neoplasms,14272
+,4,Diseases of heart,13994
+,5,Homicide,8787
+,6,Chronic liver disease and cirrhosis,4529
+,7,Diabetes mellitus,3115
+,8,Cerebrovascular diseases,2326
+,9,Influenza and pneumonia,1415
+,10,Septicemia,1193
+45-64,,All Causes,535330
+,1,Malignant neoplasms,147352
+,2,Diseases of heart,111975
+,3,Unintentional injuries,48251
+,4,Chronic liver disease and cirrhosis,22483
+,5,Chronic lower respiratory diseases,22335
+,6,Diabetes mellitus,21856
+,7,Cerebrovascular diseases,18084
+,8,Suicide,16250
+,9,"Nephritis, nephrotic syndrome and nephrosis",8126
+,10,Septicemia,7848
+65+,,All Causes,2117332
+,1,Diseases of heart,531583
+,2,Malignant neoplasms,435462
+,3,Chronic lower respiratory diseases,133246
+,4,Cerebrovascular diseases,129193
+,5,Alzheimer's disease,120090
+,6,Diabetes mellitus,62397
+,7,Unintentional injuries,60527
+,8,"Nephritis, nephrotic syndrome and nephrosis",42230
+,9,Influenza and pneumonia,40399
+,10,Parkinson's disease,34435
