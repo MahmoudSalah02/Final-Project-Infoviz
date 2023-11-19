@@ -22,19 +22,39 @@
                         },
                         {
                             "Rank": 4,
-                            "Cause": "Sudden infant death syndrom",
-                            "Total Deaths": 1266
+                            "Cause": "Sudden infant death syndrome",
+                            "Total Deaths": 1248
                         },
                         {
-                            "Rank": 3,
-                            "Cause": "Unintentional injuries",
-                            "Total Deaths": 1266
+                            "Rank": 5,
+                            "Cause": "Newborn affected by maternal complications of pregnancy",
+                            "Total Deaths": 1245
                         },
                         {
-                            "Rank": 3,
-                            "Cause": "Unintentional injuries",
-                            "Total Deaths": 1266
+                            "Rank": 6,
+                            "Cause": "Newborn affected by complications of placenta, cord and membranes",
+                            "Total Deaths": 742
                         },
+                        {
+                            "Rank": 7,
+                            "Cause": "Bacterial sepsis of newborn",
+                            "Total Deaths": 603
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Respiratory distress of newborn",
+                            "Total Deaths": 424
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Diseases of circulatory system",
+                            "Total Deaths": 406
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "Necrotizing enterocolitis of newborn",
+                            "Total Deaths":  354
+                        }
                     ]
                 }
             ]
@@ -48,13 +68,358 @@
                     "Categories": [
                         {
                             "Rank": 1,
-                            "Cause": "Congenital malformations, deformations and chromosomal abnormalities",
-                            "Total Deaths": 4301
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 1149
                         },
                         {
                             "Rank": 2,
-                            "Cause": "Disorders related to short gestation and low birth weight",
-                            "Total Deaths": 3445
+                            "Cause": "Congenital malformations, deformations and chromosomal abnormalities",
+                            "Total Deaths": 416
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 285
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Homicide",
+                            "Total Deaths": 284
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 133
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Influenza and pneumonia",
+                            "Total Deaths": 122
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Certain conditions originating in the perinatal period",
+                            "Total Deaths": 57
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Septicemia",
+                            "Total Deaths": 53
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 52
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",
+                            "Total Deaths": 49
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "5-14": [
+        {
+            "Total Deaths": 5497,
+            "Causes": [
+                {
+                    "Categories": [
+                        {
+                            "Rank": 1,
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 1492
+                        },
+                        {
+                            "Rank": 2,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 775
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Suicide",
+                            "Total Deaths": 546
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Congenital malformations, deformations and chromosomal abnormalities",
+                            "Total Deaths": 381
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Homicide",
+                            "Total Deaths": 346
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 178
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Chronic lower respiratory diseases",
+                            "Total Deaths": 150
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Influenza and pneumonia",
+                            "Total Deaths": 123
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 85
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",
+                            "Total Deaths": 66
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "15-24": [
+        {
+            "Total Deaths": 29771,
+            "Causes": [
+                {
+                    "Categories": [
+                        {
+                            "Rank": 1,
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 11755
+                        },
+                        {
+                            "Rank": 2,
+                            "Cause": "Suicide",
+                            "Total Deaths": 5954
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Homicide",
+                            "Total Deaths": 4774
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 1388
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 872
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Congenital malformations, deformations and chromosomal abnormalities",
+                            "Total Deaths": 390
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Diabetes mellitus",
+                            "Total Deaths": 248
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Influenza and pneumonia",
+                            "Total Deaths": 175
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Chronic lower respiratory diseases",
+                            "Total Deaths": 168
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 158
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "25-44": [
+        {
+            "Total Deaths": 142164,
+            "Causes": [
+                {
+                    "Categories": [
+                        {
+                            "Rank": 1,
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 48586
+                        },
+                        {
+                            "Rank": 2,
+                            "Cause": "Suicide",
+                            "Total Deaths": 15584
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 14272
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 13994
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Homicide",
+                            "Total Deaths": 8787
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Chronic liver disease and cirrhosis",
+                            "Total Deaths": 4529
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Diabetes mellitus",
+                            "Total Deaths": 3115
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 2326
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Influenza and pneumonia",
+                            "Total Deaths": 1415
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "Septicemia",
+                            "Total Deaths": 1193
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "45-64": [
+        {
+            "Total Deaths": 535330,
+            "Causes": [
+                {
+                    "Categories": [
+                        {
+                            "Rank": 1,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 147352
+                        },
+                        {
+                            "Rank": 2,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 111975
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 48251
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Chronic liver disease and cirrhosis",
+                            "Total Deaths": 22483
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Chronic lower respiratory diseases",
+                            "Total Deaths": 22335
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Diabetes mellitus",
+                            "Total Deaths": 21856
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 18084
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Suicide",
+                            "Total Deaths": 16250
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                            "Total Deaths": 8126
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "Septicemia",
+                            "Total Deaths": 7848
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "65+": [
+        {
+            "Total Deaths": 2117332,
+            "Causes": [
+                {
+                    "Categories": [
+                        {
+                            "Rank": 1,
+                            "Cause": "Diseases of heart",
+                            "Total Deaths": 531583
+                        },
+                        {
+                            "Rank": 2,
+                            "Cause": "Malignant neoplasms",
+                            "Total Deaths": 435462
+                        },
+                        {
+                            "Rank": 3,
+                            "Cause": "Chronic lower respiratory diseases",
+                            "Total Deaths": 133246
+                        },
+                        {
+                            "Rank": 4,
+                            "Cause": "Cerebrovascular diseases",
+                            "Total Deaths": 129193
+                        },
+                        {
+                            "Rank": 5,
+                            "Cause": "Alzheimer's disease",
+                            "Total Deaths": 120090
+                        },
+                        {
+                            "Rank": 6,
+                            "Cause": "Diabetes mellitus",
+                            "Total Deaths": 62397
+                        },
+                        {
+                            "Rank": 7,
+                            "Cause": "Unintentional injuries",
+                            "Total Deaths": 60527
+                        },
+                        {
+                            "Rank": 8,
+                            "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                            "Total Deaths": 42230
+                        },
+                        {
+                            "Rank": 9,
+                            "Cause": "Influenza and pneumonia",
+                            "Total Deaths": 40399
+                        },
+                        {
+                            "Rank": 10,
+                            "Cause": "Parkinson's disease",
+                            "Total Deaths": 34435
                         }
                     ]
                 }
