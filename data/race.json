@@ -1,0 +1,683 @@
+{ "white": [
+    {
+        "Total Deaths": 2393548,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 554320
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 503448
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 143563
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 141993
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 122569
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 108493
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 67174
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 41843
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 41655
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 39487
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"White, not Hispanic or Latino": [
+    {
+        "Total Deaths": 2183844,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 512600
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 460950
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 136136
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 125151
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 110804
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 100371
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 57168
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 38066
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 37428
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 35081
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Black or African American": [
+    {
+        "Total Deaths": 351907,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 82539
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths":71435
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 22184
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths":11583
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 20227
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 9313
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 15628
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Essential hypertension and hypertensive renal disease",
+                        "Total Deaths": 6696
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Homicide",
+                        "Total Deaths": 10090
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 9831
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Black or African American, not Hispanic": [
+    {
+        "Total Deaths": 346677,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 81306
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 70513
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 21615
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 11446
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 20003
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 908
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 15415
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Essential hypertension and hypertensive renal disease",
+                        "Total Deaths": 6605
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Homicide",
+                        "Total Deaths": 9951
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 9740
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"American Indian or Alaska Native": [
+    {
+        "Total Deaths": 19227,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 3386
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 3386
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 2210
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 811
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 749
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Chronic liver disease and cirrhosis",
+                        "Total Deaths": 1146
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 1067
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 2384
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 580
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 399
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"American Indian or Alaska Native, not Hispanic or Latino": [
+    {
+        "Total Deaths": 18057,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 3208
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 2979
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 2046
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths":1079
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 608
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Chronic liver disease and cirrhosis",
+                        "Total Deaths": 1079
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 1006
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 2063
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 546
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 373
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Asian or Pacific Islander": [
+    {
+        "Total Deaths": 79139,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 16868
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 19508
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 3762
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 2091
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 6016
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 3066
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 3435
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 1943
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 1609
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 1700
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Asian or Pacific Islander, not Hispanic": [
+    {
+        "Total Deaths": 77474,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 16535
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 19192
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 3581
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 2041
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 5935
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 3020
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 3375
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 1922
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Essential hypertension and hypertensive renal disease",
+                        "Total Deaths": 1560
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 1671
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Asian, not Hispanic or Latino": [
+    {
+        "Total Deaths": 70532,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 14925
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 17702
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 3092
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 1859
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 5495
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 2887
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 3000
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 1784
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Essential hypertension and hypertensive renal disease",
+                        "Total Deaths": 1458
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 1523
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Native Hawaiian or Other Pacific Islander": [
+    {
+        "Total Deaths": 3491,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 870
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 752
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 189
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 76
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 242
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 62
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 3224
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Influenza and pneumonia",
+                        "Total Deaths": 79
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 90
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 88
+                    }
+                    
+                ]
+            }
+        ]
+    }
+],
+"Hispanic or Latino": [
+    {
+        "Total Deaths": 212397,
+        "Causes": [
+            {
+                "Categories": [
+                    {
+                        "Rank": 1,
+                        "Cause": "Diseases of heart",
+                        "Total Deaths": 41079
+                    },
+                    {
+                        "Rank": 2,
+                        "Cause": "Malignant neoplasms",
+                        "Total Deaths": 43079
+                    },
+                    {
+                        "Rank": 3,
+                        "Cause": "Unintentional injuries",
+                        "Total Deaths": 17874
+                    },
+                    {
+                        "Rank": 4,
+                        "Cause": "Chronic lower respiratory diseases",
+                        "Total Deaths": 6877
+                    },
+                    {
+                        "Rank": 5,
+                        "Cause": "Cerebrovascular diseases",
+                        "Total Deaths": 11959
+                    },
+                    {
+                        "Rank": 6,
+                        "Cause": "Alzheimer's disease",
+                        "Total Deaths": 8221
+                    },
+                    {
+                        "Rank": 7,
+                        "Cause": "Diabetes mellitus",
+                        "Total Deaths": 10166
+                    },
+                    {
+                        "Rank": 8,
+                        "Cause": "Chronic liver disease and cirrhosis",
+                        "Total Deaths": 6877
+                    },
+                    {
+                        "Rank": 9,
+                        "Cause": "Suicide",
+                        "Total Deaths": 4331
+                    },
+                    {
+                        "Rank": 10,
+                        "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                        "Total Deaths": 4488
+                    }
+                    
+                ]
+            }
+        ]
+    }
+]
+}
