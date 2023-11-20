@@ -1,5 +1,62 @@
 {
-    "white": [
+    "Total Population": [
+        {
+            "Total Deaths": 2854838,
+            "Causes": [
+                {
+                    "Rank": 1,
+                    "Cause": "Diseases of heart",
+                    "Total Deaths": 659041
+                },
+                {
+                    "Rank": 2,
+                    "Cause": "Malignant neoplasms",
+                    "Total Deaths": 599601
+                },
+                {
+                    "Rank": 3,
+                    "Cause": "Unintentional injuries",
+                    "Total Deaths": 173040
+                },
+                {
+                    "Rank": 4,
+                    "Cause": "Chronic lower respiratory diseases",
+                    "Total Deaths": 156979
+                },
+                {
+                    "Rank": 5,
+                    "Cause": "Cerebrovascular diseases",
+                    "Total Deaths": 150005
+                },
+                {
+                    "Rank": 6,
+                    "Cause": "Alzheimer's disease",
+                    "Total Deaths": 121499
+                },
+                {
+                    "Rank": 7,
+                    "Cause": "Diabetes mellitus",
+                    "Total Deaths": 87647
+                },
+                {
+                    "Rank": 8,
+                    "Cause": "Nephritis, nephrotic syndrome and nephrosis",
+                    "Total Deaths": 51565
+                },
+                {
+                    "Rank": 9,
+                    "Cause": "Influenza and pneumonia",
+                    "Total Deaths": 49783
+                },
+                {
+                    "Rank": 10,
+                    "Cause": "Suicide",
+                    "Total Deaths": 47511
+                }
+            ]
+        }
+    ],
+    "White": [
         {
             "Total Deaths": 2393548,
             "Causes": [
