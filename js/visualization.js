@@ -1,7 +1,7 @@
 // Immediately Invoked Function Expression
 ((() => {
   // Load the data from a JSON file
-  d3.json("data/race.json", (error, data) => {
+  d3.json("data/race.JSON", (error, data) => {
     if (error) throw error;
 
     // Extract top 10 diseases data
@@ -22,4 +22,16 @@
     let pieChartInstance = pieChart();
     pieChartInstance("#piechart", data);
   });
+
+  // After loading your data
+  d3.json("data/age.JSON", function (error, data) {
+    if (error) {
+      console.error("Error loading the data:", error);
+      return;
+    }
+    let treeMapChartInstance = treemap();
+    treeMapChartInstance("#treemap", data); // Pass the selector and parsed data
+  });
+
+
 })());
