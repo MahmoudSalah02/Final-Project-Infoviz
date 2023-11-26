@@ -56,10 +56,10 @@ function barchart() {
       .call(d3.axisLeft(yScale));
   }
 
-  // Expose the dispatcher as part of the chart's public API
+  // Expose dispatcher
   chart.dispatcher = function () {
     return dispatcher;
   };
-  
+
   return chart;
 }
