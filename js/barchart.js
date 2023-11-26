@@ -1,14 +1,15 @@
-/* global d3 */
-
 // Initialize a horizontal bar chart
 function barchart() {
   let margin = { top: 30, right: 20, bottom: 70, left: 180 },
-      width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
   // Create scales
   let xScale = d3.scaleLinear().range([0, width]);
   let yScale = d3.scaleBand().range([0, height]).padding(0.1);
+
+  // Create a dispatcher for events
+  let dispatcher = d3.dispatch("diseaseSelected");
 
   function chart(selector, data) {
     // Sort data based on Total Deaths
@@ -26,14 +27,24 @@ function barchart() {
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Create the bars
-    svg.selectAll(".bar")
+    // Create the bars and store the selection in 'bars'
+    let bars = svg.selectAll(".bar")
       .data(data)
       .enter().append("rect")
       .attr("class", "bar")
       .attr("width", d => xScale(d['Total Deaths']))
       .attr("y", d => yScale(d.Cause))
-      .attr("height", yScale.bandwidth());
+      .attr("height", yScale.bandwidth())
+      .on("click", function (d) {
+        // Reset the color of all bars
+        bars.style("fill", "");
+        // Change the color of the clicked bar
+        d3.select(this).style("fill", "red");
+        // Log the selected disease
+        console.log("Selected disease:", d.Cause);
+        // Dispatch the event (if you have a dispatcher set up)
+        dispatcher.call("diseaseSelected", this, d.Cause);
+      });
 
     // Add the X Axis
     svg.append("g")
@@ -45,5 +56,10 @@ function barchart() {
       .call(d3.axisLeft(yScale));
   }
 
+  // Expose the dispatcher as part of the chart's public API
+  chart.dispatcher = function () {
+    return dispatcher;
+  };
+  
   return chart;
 }
