@@ -35,11 +35,12 @@ function barchart() {
       .attr("width", d => xScale(d['Total Deaths']))
       .attr("y", d => yScale(d.Cause))
       .attr("height", yScale.bandwidth())
+      .style("fill", "rgb(79, 120, 167)")
       .on("click", function (d) {
         // Reset the color of all bars
-        bars.style("fill", "");
+        bars.style("fill", "rgb(79, 120, 167)");
         // Change the color of the clicked bar
-        d3.select(this).style("fill", "red");
+        d3.select(this).style("fill", "rgb(255, 53, 53)");
         // Log the selected disease
         console.log("Selected disease:", d.Cause);
         // Dispatch the event (if you have a dispatcher set up)
