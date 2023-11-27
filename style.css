@@ -1,109 +1,108 @@
 /* General formatting */
 body {
-	padding: 0 10px;
-	font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans",
-		sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
 }
 
-h1,
-h2,
-h3 {
-	line-height: 1.2
+h1, h2, h3 {
+    color: #333;
 }
 
-/* Your text should be in a nice narrow column */
+/* Content column */
 .content-column {
-	max-width: 650px;
-	margin: 40px auto;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
+/* Typography */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Images */
+img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Visualization holder styling */
 .vis-holder {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .chart-combo-holder {
-	display: flex;
+    display: flex;
+    margin-top: 20px;
 }
 
 .barchart-holder {
-	width: 80%;
-	/* Adjust to your preference */
-	margin: 0 auto;
-	/* Center the barchart */
+    width: 70%;
+    margin: 0 auto;
 }
 
-.piechart-holder,
-.legend-holder {
-	flex: 1;
-	max-width: 50%;
-	/* Half the size of the barchart */
+.piechart-holder, .legend-holder {
+    flex: 1;
+    max-width: 45%;
+    margin-left: 10px;
 }
 
-/* Further styling for the piechart-holder and legend-holder as needed */
-
-
-/* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */
+/* Fork on GitHub ribbon */
 #forkongithub a {
-	background: #00F;
-	color: #fff;
-	text-decoration: none;
-	font-family: arial, sans-serif;
-	text-align: center;
-	font-weight: bold;
-	padding: 5px 40px;
-	font-size: 1rem;
-	line-height: 1.4rem;
-	position: relative;
-	transition: 0.5s;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 5px;
 }
 
 #forkongithub a:hover {
-	background: #118;
-	color: #fff;
+    background: #555;
 }
 
-#forkongithub a::before,
-#forkongithub a::after {
-	content: "";
-	width: 100%;
-	display: block;
-	position: absolute;
-	top: 1px;
-	left: 0;
-	height: 1px;
-	background: #fff;
-}
-
-#forkongithub a::after {
-	bottom: 1px;
-	top: auto;
-}
-
-@media screen and (min-width:1000px) {
-	#forkongithub {
-		position: fixed;
-		display: block;
-		top: 0;
-		right: 0;
-		width: 200px;
-		overflow: hidden;
-		height: 200px;
-		z-index: 9999;
-	}
-
-	#forkongithub a {
-		width: 200px;
-		position: absolute;
-		top: 60px;
-		right: -60px;
-		transform: rotate(45deg);
-		-webkit-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-		-moz-transform: rotate(45deg);
-		-o-transform: rotate(45deg);
-		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-	}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .content-column, .barchart-holder, .piechart-holder, .legend-holder {
+        width: 100%;
+        margin: 0;
+    }
 }
