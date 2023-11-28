@@ -4,8 +4,8 @@
 function treemap() {
   // Set the dimensions and margins of the chart
   let margin = { top: 10, right: 10, bottom: 10, left: 10 },
-    width = 1154 - margin.left - margin.right,
-    height = 1154 - margin.top - margin.bottom;
+    width = 554 - margin.left - margin.right,
+    height = 554 - margin.top - margin.bottom;
 
   function processData(rawData, selectedDisease) {
     console.log("rawData:", rawData); // Add this line

@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #102c58;
 }
 
 /* Content column */
@@ -59,27 +59,65 @@ img {
 .vis-holder {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Changed to display charts side by side */
+    justify-content: space-between; /* Adjusted for better spacing between charts */
+    margin-left: 40px;
     margin-top: 40px;
+}
+
+.chart-container {
+    width: 100%; /* Adjusted for better spacing between charts */
+    margin-bottom: 20px;
 }
 
 .chart-combo-holder {
     display: flex;
+    flex-direction: column; /* Retained for better layout on smaller screens */
     margin-top: 20px;
+
 }
 
+/* Adjust the size of the bar chart */
 .barchart-holder {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%; /* Adjusted to fill the container */
+    margin-bottom: 20px; /* Added margin for better spacing */
+    height: 400px;
 }
 
-.piechart-holder, .legend-holder {
-    flex: 1;
-    max-width: 45%;
-    margin-left: 10px;
+.piechart-legend-container {
+    display: flex;
+  }
+
+/* Adjust the size of the pie chart and legend */
+.piechart-holder {
+  width: 100%; /* Adjusted to fill the container */
 }
 
+.legend-holder {
+  width: 30%; /* Adjusted to fill the container */
+  margin-top: 20px; /* Added margin to separate legend from the pie chart */    
+}
+
+/* Adjust the size of the treemap */
+.treemap-holder {
+  width: 30%; /* Adjusted for better spacing between charts */
+  margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .chart-combo-holder {
+    flex-direction: column;
+  }
+
+  .barchart-holder,
+  .piechart-holder,
+  .legend-holder,
+  .treemap-holder {
+    width: 100%;
+    max-width: 100%;
+  }
+}
 /* Fork on GitHub ribbon */
 #forkongithub a {
     background: #333;
@@ -106,3 +144,4 @@ img {
         margin: 0;
     }
 }
+

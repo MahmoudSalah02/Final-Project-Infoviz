@@ -57,7 +57,8 @@ function pieChart() {
             .data(processedData)
             .enter().append("g")
             .attr("class", "legend")
-            .attr("transform", (d, i) => `translate(${-radius}, ${-height / 2 + i * 20})`);
+            .attr("transform", (d, i) => `translate(${width / 2 -245}, ${-height / 2 + i * 30})`); 
+            //.attr("transform", (d, i) => `translate(${-radius}, ${-height / 2 + i * 20})`);
 
         legend.append("rect")
             .attr("x", width / 2 - 18)
@@ -69,8 +70,9 @@ function pieChart() {
             .attr("x", width / 2 - 24)
             .attr("y", 9)
             .attr("dy", ".35em")
-            .style("text-anchor", "end")
+            .style("text-anchor", "end") 
             .text(d => d.label);
+            // .style("text-anchor", "end")
     }
 
     chart.updateData = function (selector, newData, selectedDisease) {
