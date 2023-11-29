@@ -4,34 +4,19 @@ function pieChart() {
         radius = Math.min(width, height) / 2,
         colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-    function processData(data, selectedDisease) {
-        let diseaseData = [];
-        let totalDeaths = 0;
-
-        Object.keys(data).slice(1).forEach(race => {
-            const disease = data[race][0].Causes.find(cause => cause.Cause === selectedDisease);
-            if (disease) {
-                totalDeaths += disease['Total Deaths'];
-            }
-        });
-
-        Object.keys(data).slice(1).forEach(race => {
-            const disease = data[race][0].Causes.find(cause => cause.Cause === selectedDisease);
-            if (disease) {
-                diseaseData.push({
-                    label: race,
-                    value: (disease['Total Deaths'] / totalDeaths) * 100
-                });
-            }
-        });
-
-        return diseaseData;
+    function processData(aggregatedData) {
+        return aggregatedData.map(d => ({
+            label: d.race,
+            value: d.percentage
+        }));
     }
 
-    function chart(selector, data, selectedDisease = 'Diseases of heart') {
+
+    function chart(selector, aggregatedData) {
         d3.select(selector).select("svg").remove(); // Clear previous svg (if any)
 
-        let processedData = processData(data, selectedDisease);
+        let processedData = processData(aggregatedData);
+        console.log("Processed pie chart data:", processedData);
 
         const svg = d3.select(selector)
             .append("svg")
@@ -57,8 +42,8 @@ function pieChart() {
             .data(processedData)
             .enter().append("g")
             .attr("class", "legend")
-            .attr("transform", (d, i) => `translate(${width / 2 -245}, ${-height / 2 + i * 30})`); 
-            //.attr("transform", (d, i) => `translate(${-radius}, ${-height / 2 + i * 20})`);
+            .attr("transform", (d, i) => `translate(${width / 2 - 245}, ${-height / 2 + i * 30})`);
+        //.attr("transform", (d, i) => `translate(${-radius}, ${-height / 2 + i * 20})`);
 
         legend.append("rect")
             .attr("x", width / 2 - 18)
@@ -70,13 +55,13 @@ function pieChart() {
             .attr("x", width / 2 - 24)
             .attr("y", 9)
             .attr("dy", ".35em")
-            .style("text-anchor", "end") 
+            .style("text-anchor", "end")
             .text(d => d.label);
-            // .style("text-anchor", "end")
+        // .style("text-anchor", "end")
     }
 
-    chart.updateData = function (selector, newData, selectedDisease) {
-        chart(selector, newData, selectedDisease);
+    chart.updateData = function (selector, newData) {
+        chart(selector, newData);
     };
 
     return chart;
