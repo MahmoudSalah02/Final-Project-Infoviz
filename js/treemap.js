@@ -13,6 +13,8 @@ function treemap() {
   }
 
   function chart(selector, aggregatedData) {
+    console.log("Treemap data:", aggregatedData);  // Log the data
+
     d3.select(selector).select("svg").remove();
 
     let data = processData(aggregatedData);
