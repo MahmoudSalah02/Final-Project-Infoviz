@@ -52,7 +52,7 @@
 
     <h1>Visualization</h1>
 
-    <p><em>Include the interactive visualization as part of this page. Static example follows.</em></p>
+    <!-- <p><em>Include the interactive visualization as part of this page. Static example follows.</em></p> -->
 
   </div>
 
@@ -66,24 +66,31 @@
     <div class="treemap-holder" id="treemap"></div>
   </div> -->
   <div class="vis-holder">
-    <div class="chart-container">
+    <div class="chart-container barchart-content-column">
         <!-- <h2>Bar Chart</h2> -->
-        <div class="barchart-holder" id="barchart"></div>
+        <div class="barchart-holder" id="barchart">
+          <h2>Bar Chart</h2>
+        </div>
     </div>
     <div class="chart-container">
         <!-- <h2>Pie Chart</h2> -->
         <div class="chart-combo-holder">
             <div class="piechart-legend-container">
-                <div class="piechart-holder" id="piechart"></div>
-                <div class="treemap-holder" id="treemap"></div>
-                <div class="legend-holder" id="legend"></div>
+                <div class="piechart-holder piechart-content-column" id="piechart">
+                  <h2>Pie Chart</h2>
+                </div>
+                <!-- <div class="legend-holder" id="legend"></div> -->
+                <div class="treemap-holder treemap-content-column" id="treemap">
+                  <h2>Treemap</h2>
+                </div>
+
             </div>
+            <div class="chart-container">
+              <!-- <h2>Treemap</h2> -->
+              <!-- <div class="treemap-holder" id="treemap"></div> -->
+          </div>
         </div>
     </div>
-    <!-- <div class="chart-container">
-        <h2>Treemap</h2>
-        <div class="treemap-holder" id="treemap"></div>
-    </div> -->
 </div>
 
 

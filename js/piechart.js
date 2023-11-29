@@ -1,7 +1,7 @@
 function pieChart() {
-    let width = 500,
-        height = 500,
-        radius = Math.min(width, height) / 2,
+    let width = 780,
+        height = 470,
+        radius = Math.min(width, height) / 2.3,
         colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
     function processData(data, selectedDisease) {
@@ -38,7 +38,7 @@ function pieChart() {
             .attr("width", width)
             .attr("height", height)
             .append("g")
-            .attr("transform", `translate(${width / 2},${height / 2})`);
+            .attr("transform", `translate(${width / 2 +120},${height / 2})`);
 
         const arc = d3.arc().outerRadius(radius - 10).innerRadius(0);
         const pie = d3.pie().sort(null).value(d => d.value);
@@ -57,21 +57,22 @@ function pieChart() {
             .data(processedData)
             .enter().append("g")
             .attr("class", "legend")
-            .attr("transform", (d, i) => `translate(${width / 2 -245}, ${-height / 2 + i * 30})`); 
+            .attr("transform", (d, i) => `translate(${width / 2 -1270}, ${-height / 2 + i * 30})`); 
             //.attr("transform", (d, i) => `translate(${-radius}, ${-height / 2 + i * 20})`);
 
         legend.append("rect")
             .attr("x", width / 2 - 18)
-            .attr("width", 18)
-            .attr("height", 18)
+            .attr("width", 15)
+            .attr("height", 15)
             .style("fill", (d, i) => colorScale(i));
 
         legend.append("text")
-            .attr("x", width / 2 - 24)
+            .attr("x", width / 2 )
             .attr("y", 9)
             .attr("dy", ".35em")
-            .style("text-anchor", "end") 
-            .text(d => d.label);
+            .style("text-anchor", "start") 
+            .text(d => d.label)
+            .style("font-size", "12px");
             // .style("text-anchor", "end")
     }
 
