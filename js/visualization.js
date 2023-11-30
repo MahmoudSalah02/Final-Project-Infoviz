@@ -49,7 +49,7 @@
   }
 
   // Load and display the bar chart
-  d3.json("/data/race.JSON", (error, data) => {
+  d3.json("/data/race.json", (error, data) => {
     if (error) throw error;
     barData = data; // Store the data for later use
 
