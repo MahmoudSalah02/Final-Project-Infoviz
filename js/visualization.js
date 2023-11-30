@@ -25,7 +25,7 @@
       race: d.race,
       percentage: (d.totalDeaths / totalDeaths) * 100
     }));
-  
+
     return aggregatedData;
   }
 
@@ -48,8 +48,20 @@
     return aggregatedData;
   }
 
+  function getJsonFilePath(fileName) {
+    // Check if running on GitHub Pages
+    if (window.location.hostname.includes('github.io')) {
+      // Adjust the path for GitHub Pages
+      // Replace 'repo' with your actual repository name
+      return `/Final-Project-Infoviz/data/${fileName}`;
+    } else {
+      // Local development path
+      return `data/${fileName}`;
+    }
+  }
+
   // Load and display the bar chart
-  d3.json("Final-Project-Infoviz/data/race.json", (error, data) => {
+  d3.json(getJsonFilePath("race.json"), (error, data) => {
     if (error) throw error;
     barData = data; // Store the data for later use
 
@@ -67,7 +79,7 @@
   });
 
   // Load and display the initial pie chart and treemap
-  d3.json("Final-Project-Infoviz/data/race.json", (error, pieData) => {
+  d3.json(getJsonFilePath("race.json"), (error, pieData) => {
     if (error) console.error("Error loading the data:", error);
     else {
       pieChartInstance = pieChart();
@@ -75,7 +87,7 @@
     }
   });
 
-  d3.json("Final-Project-Infoviz/data/age.JSON", (error, data) => {
+  d3.json(getJsonFilePath("age.JSON"), (error, data) => {
     if (error) console.error("Error loading the data:", error);
     else {
       ageData = data; // Store the data for later use
