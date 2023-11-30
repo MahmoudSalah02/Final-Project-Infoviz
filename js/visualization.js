@@ -49,7 +49,7 @@
   }
 
   // Load and display the bar chart
-  d3.json("data/race.JSON", (error, data) => {
+  d3.json("/data/race.JSON", (error, data) => {
     if (error) throw error;
     barData = data; // Store the data for later use
 
@@ -67,7 +67,7 @@
   });
 
   // Load and display the initial pie chart and treemap
-  d3.json("data/race.JSON", (error, pieData) => {
+  d3.json("/data/race.json", (error, pieData) => {
     if (error) console.error("Error loading the data:", error);
     else {
       pieChartInstance = pieChart();
@@ -75,7 +75,7 @@
     }
   });
 
-  d3.json("data/age.JSON", (error, data) => {
+  d3.json("/data/age.JSON", (error, data) => {
     if (error) console.error("Error loading the data:", error);
     else {
       ageData = data; // Store the data for later use
