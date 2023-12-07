@@ -13,15 +13,12 @@ function treemap() {
   }
 
   function chart(selector, aggregatedData) {
-    console.log("Treemap data:", aggregatedData);  // Log the data
-
     d3.select(selector).select("svg").remove();
 
     let data = processData(aggregatedData);
 
     // Check if data is empty and handle accordingly
     if (!data || data.length === 0) {
-        console.log("No data to display for the treemap.");
         return; // Exit the function if no data is present
     }
 

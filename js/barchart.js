@@ -15,7 +15,6 @@ function barchart() {
   let selectedBars = new Set();
 
   function chart(selector, data) {
-    console.log("Initial bar chart data:", data);
     if (data.length > 0) {
       console.log("Properties of first data element:", Object.keys(data[0]));
     }
@@ -46,7 +45,6 @@ function barchart() {
       .on("click", function (d) {  // 'd' is the first parameter
         d3.event.stopPropagation(); // For D3 v5 and earlier
         let cause = d.Cause;
-        console.log("Clicked disease:", cause); // Debugging statement
 
         if (selectedBars.has(cause)) {
           selectedBars.delete(cause);
@@ -56,7 +54,6 @@ function barchart() {
           d3.select(this).style("fill", "rgb(255, 53, 53)");
         }
 
-        console.log("Current selected diseases:", Array.from(selectedBars));
         dispatcher.call("diseaseSelected", null, Array.from(selectedBars));
       });
 

@@ -16,7 +16,6 @@ function pieChart() {
         d3.select(selector).select("svg").remove(); // Clear previous svg (if any)
 
         let processedData = processData(aggregatedData);
-        console.log("Processed pie chart data:", processedData);
 
         const svg = d3.select(selector)
             .append("svg")
