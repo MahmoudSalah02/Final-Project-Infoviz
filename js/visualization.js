@@ -10,7 +10,7 @@
     Object.keys(pieData).slice(1).forEach(race => { // Skip the first key
       let raceTotal = 0;
       pieData[race][0].Causes.forEach(cause => {
-        if (selectedDiseases.includes(cause.Cause)) {
+        if (selectedDiseases.length === 0 || selectedDiseases.includes(cause.Cause)) {
           raceTotal += cause['Total Deaths'];
         }
       });
@@ -36,7 +36,7 @@
     Object.keys(treeData).forEach(ageGroup => {
       let groupTotal = 0;
       treeData[ageGroup][0].Causes.forEach(cause => {
-        if (selectedDiseases.includes(cause.Cause)) {
+        if (selectedDiseases.length === 0 || selectedDiseases.includes(cause.Cause)) {
           groupTotal += cause['Total Deaths'];
         }
       });
@@ -83,7 +83,8 @@
     if (error) console.error("Error loading the data:", error);
     else {
       pieChartInstance = pieChart();
-      pieChartInstance("#piechart", pieData);
+      let initialTreeData = aggregatePieData([], pieData); // Assuming an empty selection initially
+      pieChartInstance.updateData("#piechart", initialTreeData);
     }
   });
 
