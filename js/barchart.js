@@ -15,9 +15,6 @@ function barchart() {
   let selectedBars = new Set();
 
   function chart(selector, data) {
-    if (data.length > 0) {
-      console.log("Properties of first data element:", Object.keys(data[0]));
-    }
     // Sort data based on Total Deaths
     data.sort((a, b) => b['Total Deaths'] - a['Total Deaths']);
 
@@ -33,29 +30,16 @@ function barchart() {
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Create the bars and store the selection in 'bars'
+    // Create the bars
     let bars = svg.selectAll(".bar")
       .data(data)
       .enter().append("rect")
       .attr("class", "bar")
-      .attr("width", d => xScale(d['Total Deaths']))
+      .attr("x", 0)
       .attr("y", d => yScale(d.Cause))
+      .attr("width", d => xScale(d['Total Deaths']))
       .attr("height", yScale.bandwidth())
-      .style("fill", "rgb(79, 120, 167)")
-      .on("click", function (d) {  // 'd' is the first parameter
-        d3.event.stopPropagation(); // For D3 v5 and earlier
-        let cause = d.Cause;
-
-        if (selectedBars.has(cause)) {
-          selectedBars.delete(cause);
-          d3.select(this).style("fill", "rgb(79, 120, 167)");
-        } else {
-          selectedBars.add(cause);
-          d3.select(this).style("fill", "rgb(255, 53, 53)");
-        }
-
-        dispatcher.call("diseaseSelected", null, Array.from(selectedBars));
-      });
+      .style("fill", "rgb(79, 120, 167)");
 
     // Add the X Axis
     svg.append("g")
@@ -65,6 +49,35 @@ function barchart() {
     // Add the Y Axis
     svg.append("g")
       .call(d3.axisLeft(yScale));
+
+    // Brushing and linking
+    let brush = d3.brushX()
+      .extent([[0, 0], [width, height]])
+      .on("start brush end", brushed);
+
+    svg.append("g")
+      .attr("class", "brush")
+      .call(brush);
+
+    function brushed() {
+      let selection = d3.event.selection;
+      if (selection === null) {
+        selectedBars.clear();
+        bars.style("fill", "rgb(79, 120, 167)");
+      } else {
+        let [x0, x1] = selection;
+        bars.each(function(d) {
+          let barX = xScale(d['Total Deaths']);
+          if (barX >= x0 && barX <= x1) {
+            selectedBars.add(d.Cause);
+            d3.select(this).style("fill", "rgb(255, 53, 53)");
+          } else {
+            d3.select(this).style("fill", "rgb(79, 120, 167)");
+          }
+        });
+      }
+      dispatcher.call("diseaseSelected", null, Array.from(selectedBars));
+    }
   }
 
   // Function to clear all selections
@@ -75,10 +88,14 @@ function barchart() {
   }
 
   // Global click listener to clear selections
-  d3.select(document).on("click", clearSelections);
+  d3.select(window).on("click", () => {
+    if (d3.event.target.tagName !== 'rect') {
+      clearSelections();
+    }
+  });
 
   // Expose dispatcher and clearSelections
-  chart.dispatcher = function () {
+  chart.dispatcher = function() {
     return dispatcher;
   };
   chart.clearSelections = clearSelections;
