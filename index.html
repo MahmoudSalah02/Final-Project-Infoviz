@@ -47,9 +47,17 @@
 
     <h1>Motivation</h1>
 
-    <p>Our goal is to explore why people die in the US, and how different populations are affected differently by
-      those causes of death. Looking at these charts will allow the user a better understanding of American causes
-      of death and how those causes of death proportionately affect certain populations.</p>
+    <p>Our team’s goal in this project is to explore why people die in the US in modern times, and how 
+      different populations are affected differently by those causes of death. We did this by looking 
+      at data from the CDC on all deaths that occurred in 2019. Our motivating question is why are people 
+      in the US dying, and how do those reasons differ for people of different ages and races? Specifically, 
+      we want to examine how different causes of death in the top 10 causes affect different race and age 
+      populations. Looking at the charts we created will allow the user a better understanding of American 
+      causes of death and how those causes of death proportionately affect certain groups. There is also an 
+      opportunity to compare how one cause of death is more common in certain ages or certain races versus 
+      another cause. We hope that providing this information will be helpful in some way to people in the 
+      medical profession or people who work in legislation in determining how medical practices or legal 
+      policy should move forward.</p>
 
     <h1>Visualization</h1>
 
@@ -99,28 +107,38 @@
   <!-- Your writeup goes here -->
   <div class="content-column">
 
-    <!-- <h1>Demo Video</h1>
-
-    <p><em>Embedded MP4 demo video using the HTML5 &lt;video&gt; tag. For example, this screen recording Prof. Cody
-        Dunne made of Mike Bostock's flexible transitions in D3 slide:</em></p>
-
-    <video controls width="100%">
-      <source src="http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4" type="video/mp4">
-      <p>Your browser doesn't support HTML5 video. Here is
-        a <a href="http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4">link to the video</a>
-        instead.</p>
-    </video> -->
+    <h1>Demo Video</h1>
+    <video width="450" height="240" controls>
+      <source src="./files/1af0def1-efe0-4544-b833-aa422792b007.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+    </video>
 
     <h1>Visualization explanation</h1>
 
-    <p><em>Final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation
-        slides.</em></p>
+    <p>These are screenshots of our final visualizations when our webpage is opened:</p>
+    <p>
+      <img src="images/bar.png">
+      <img src="images/pie.png">
+      <img src="images/tree.png">
+    </p>
+
+    <p>When the user highlights a bar (or bars) from the bar chart (one of the causes of death), it highlights to be red, and the pie 
+      chart and treemap adjust to show just that cause of death's race and age statistics. We chose to have our bar chart 
+      and the treemap all in one color so that the user isn't overwhlemed by irrelevant channels. The pie chart uses multiple 
+      colors so that each piece is distinguishable from the others.</p>
 
     <h1>Data Analysis</h1>
-    <p>The data that we used was numbers of deaths from the top 10 causes of death
-      in each age group and in each race. These were initially in Excel sheets, then we converted
-      them into json files so that we could use them easily in our visualizations. All of the data can
-      be found in the data folder of this project on GitHub!</p>
+    <p>The data that we used was the number of deaths in the top 10 causes of death in each age group and race in the US from 
+      2019. The data was found on the CDC website (pdfs linked at the bottom of this page) and was initially stored in Excel sheets. 
+      It also initially contained death counts based on gender and some other fields, but in preprocessing, we filtered it down 
+      to just what we decided was relevant to our project. This data is relevant because it directly answers our question of 
+      how people are dying, and how many people of different populations (age-wise and race-wise) are dying, as well as 
+      time-appropriate, since 2019 was the last non-COVID-affected year in modern times. In data preprocessing, we took the Excel 
+      sheets and deleted the non-relevant fields, then uploaded those new sheets into our project. We then converted the data 
+      points into json formatting so that we could use it easily in our visualizations. It is all quantitative data types because 
+      it is numbers of deaths in the US population. All of the data (in both the json and CVC formats) can be found in the data 
+      folder of this project on GitHub!</p>
 
     <h1>Task Analysis</h1>
 
@@ -136,11 +154,13 @@
 
     <h1>Design Process</h1>
 
-    <p>We started off by sketching some ideas of what we could do for the project. Then, we
-      adapted our initial sketches into our final sketches and our final sketches into our final
-      visualization on this website. As we progressed through each stage, we tried to balance
-      what was realistic to create and what was interesting for the user to learn about. We especially
-      focused on our use of color, as we discussed in class, and how understandable the content was.</p>
+    <p>We started off by sketching some ideas of what we could do for the project. Then, we 
+      adapted our initial sketches into our final sketches and our final sketches into our final 
+      visualization on this website. As we progressed through each stage, we tried to balance 
+      what was realistic to create and what was interesting for the user to learn about. We especially 
+      focused on our use of color, as we discussed in class, and on how to make sure the focus when looking 
+      at our visualizations is what we wanted it to be by effective use of marks and channels, and how 
+      understandable the content was.</p>
 
     <p>These are our initial sketches:
       <img src="images/InitialSketch.png">
@@ -151,37 +171,36 @@
     <img src="images/FinalSketch_PieChart.png">
     <img src="images/FinalSketch_TreeMap.png">
     </p>
-    <video width="450" height="240" controls>
-      <source src="./files/1af0def1-efe0-4544-b833-aa422792b007.mp4" type="video/mp4">
-    
-    Your browser does not support the video tag.
-    </video>
 
     <h1>Conclusion</h1>
 
-    <p>Our final result is a bar graph that displays the top 10 causes of death in the US, which,
-      when a cause is clicked on, creates a pie chart breaking down the races of those deaths and a
-      tree map breaking down the ages of those deaths. This visualization explores what causes deaths
-      and how these causes affect different populations differently. In the future, one area of improvement
-      could be attempting to be more creative with our project; because of the quick turnaround time, we were
-      hustling to get everything done, but with more time, we could definitely create a more original
-      project. We also could create more visualizations to display more facets of this data, such as
-      location-related queries.
-    </p>
+    <p>The final result of our project is a web page that has a bar graph that displays the top 10 causes of 
+      death in the US, a pie chart that shows the race breakdown of those deaths, and a treemap that shows the 
+      age breakdown of those deaths. When a cause of death (or multiple causes of death) in the bar chart is 
+      highlighted, the pie chart and tree map update to show the statistics of those deaths. This visualization 
+      effectively explores what causes deaths in the US and how these causes affect different populations differently. 
+      The webpage also has a writeup describing the steps of the project and other information on it. In the future, 
+      one area of improvement could be attempting to be more creative with our project; because of the quick 
+      turnaround time, we were hustling to get everything done, but with more time, we could definitely create a more 
+      original project that focuses on more aspects, like what was in the rest of our task table above. This project 
+      has been exciting and engaging for our team to work on as a group, and we hope that the user has a meaningful 
+      experience looking at our visualizations!</p>
 
     <h1>Acknowledgments</h1>
 
     <p>We used these sources to help with our project:
     <ul>
+      <li><a href="https://www.cdc.gov/nchs/data/hus/2020-2021/LCODAge.pdf">CDC data on deaths by age</a></li>
+      <li><a href="https://www.cdc.gov/nchs/data/hus/2020-2021/LCODRace.pdf">CDC data on deaths by race</a></li>
       <li><a href="https://observablehq.com/@d3/gallery">D3 Gallery</a></li>
       <li><a href="https://d3js.org/">D3: Data-Driven Documents</a> by Mike Bostock.</li>
       <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub"
           ribbon</a> by Chris Heilmann.</li>
-      <li><a href="https://d3-graph-gallery.com/graph/barplot_basic.html">creating bar charts using D3.js</li>
-      <li><a href="https://www.d3-graph-gallery.com/graph/interactivity_button.html">using dispatchers in D3.js for
+      <li><a href="https://d3-graph-gallery.com/graph/barplot_basic.html">Creating bar charts using D3.js</li>
+      <li><a href="https://www.d3-graph-gallery.com/graph/interactivity_button.html">Using dispatchers in D3.js for
           managing events</li>
       <li><a href="https://www.d3indepth.com/selections">SVG manipulation in D3.js</li>
-      <li><a href="https://octoperf.com/blog/2018/04/18/d3-js-drag-and-drop-tutorial/">understanding drag behavior and
+      <li><a href="https://octoperf.com/blog/2018/04/18/d3-js-drag-and-drop-tutorial/">Understanding drag behavior and
           how to handle drag and drop using D3.js</li>
     </ul>
     </p>
