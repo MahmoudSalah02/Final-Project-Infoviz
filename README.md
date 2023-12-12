@@ -1,6 +1,8 @@
-# COSI 116A Final Project Template
-
-This template will help you get started with your project. Please look through all these materials so you know how to organize your project.
+# COSI 116A Final Project
+In our Porject we factored the top 10 causes of death from diseases in the United States.
+we explored several demographic factor on this health conditions such as age and race. we got our 
+data from Center for disease control and prevention(CDC). The our data is formatted in JSON. our 
+main codes are in js file. the barchart.js creates the barchart, pichart.js creates the pichart, and the treemap.js creates the treemap. the visulization.js makes a one way connection to brush and highlight the data. You have to run the program through terminal, in the program you can brush the barchart and it will show the corresponding data on treemap and piechart. 
 
 ## The GitHub Pages Website
 
